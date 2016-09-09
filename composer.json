@@ -1,0 +1,16 @@
+{
+  "name": "opencarthelp/opencart-encryption",
+  "description": "Encryption library for OpenCart. Bridge to defuse/php-encryption.",
+  "license": "GPL-3.0+",
+  "require": {
+    "defuse/php-encryption": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpenCart\\Encryption\\": "src/"
+    }
+  }
+}
